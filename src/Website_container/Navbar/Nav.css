@@ -1,0 +1,25 @@
+.nav {
+  padding: 10px;
+  background-color: #000;
+}
+.nav-link {
+  color: red;
+  font-family: "Roboto-mono", monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.logo img {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  right: 700px;
+}
+.nav-item {
+  padding-top: 50px;
+}

@@ -1,0 +1,20 @@
+#contact {
+  position: relative;
+  color: red;
+  font-family: "Roboto-mono", monospace;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+#contact:hover {
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.footer {
+  padding-top: 15px;
+  height: 500px;
+  width: 600px;
+  position: relative;
+  left: 480px;
+  color: #fff;
+}
