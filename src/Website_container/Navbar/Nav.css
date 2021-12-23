@@ -1,17 +1,12 @@
-.nav {
-  padding: 10px;
-  background-color: #42378f;
-  background-image: linear-gradient(315deg, #42378f 0%, #f53844 44%);
-}
-.nav-link {
-  color: red;
-  font-family: "Roboto-mono", monospace;
-  font-size: 20px;
-  font-weight: bold;
-}
-.nav-link:hover {
-  color: white;
-  transition: 0.5s ease-in-out;
+/*
+.nav-item {
+  padding-top: 50px;
+}*/
+.navbar {
+  padding-top: 30px;
+  width: 100%;
+  background-color: #f35844;
+  background-image: linear-gradient(315deg, #f53844 0%, #42378f 74%);
 }
 .logo img {
   background-color: #fff;
@@ -19,8 +14,19 @@
   height: 150px;
   width: 150px;
   position: relative;
-  right: 700px;
 }
-.nav-item {
-  padding-top: 50px;
+.nav-link {
+  letter-spacing: 3px;
+  font-family: "Exo", "sans-serif";
+  color: #05f4b7;
+}
+.nav-link:hover {
+  color: #fff;
+  transition: color 0.5s ease;
+}
+.nav-link {
+  color: black;
+  font-family: "Roboto-mono", monospace;
+  font-size: 20px;
+  font-weight: bold;
 }
