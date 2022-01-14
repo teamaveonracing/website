@@ -9,10 +9,8 @@
   background-image: linear-gradient(315deg, #f53844 0%, #42378f 74%);
 }
 .logo img {
-  background-color: #fff;
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 400px;
   position: relative;
 }
 .nav-link {

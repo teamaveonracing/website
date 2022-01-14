@@ -16,7 +16,7 @@ export default function Profile(){
                         <Typical 
                         loop={Infinity}
                         steps={[
-                            "Institute Of Engineers, India",
+                            "Team Aveon Racing!",
                             5000,
                             ]}
                         />

@@ -18,14 +18,14 @@ export default function ContactUs (){
 
   return (
       <div>
-        <div id="contact">CONTACT US</div>
         <div className='footer'>
-        <form ref={form} onSubmit={sendEmail}>
-            <div className='mb-3'>
-                <label>NAME</label>
-                 <input type="text" name="user_name"className='form-control' />
-            </div>
-            <div className='mb-3'>
+             <div id="contact">CONTACT US</div>
+                <form ref={form} onSubmit={sendEmail}>
+                    <div className='mb-3'>
+                         <label>NAME</label>
+                        <input type="text" name="user_name"className='form-control' />
+                    </div>
+                    <div className='mb-3'>
                 <label>EMAIL </label>
                 <input type="email" name="user_email" placeholder="name@example.com" className='form-control'/>
             </div>
