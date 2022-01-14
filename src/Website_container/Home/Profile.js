@@ -14,11 +14,13 @@ export default function Profile(){
                     <h1>
                         {" "}
                         <Typical 
-                        loop={Infinity}
                         steps={[
                             "Team Aveon Racing!",
-                            5000,
+                            1000,
+                            "Team Aveon Racing!",
+                            1000,
                             ]}
+                            loop={Infinity}
                         />
                     </h1>
                     <span className='profile-role-tagline'>
