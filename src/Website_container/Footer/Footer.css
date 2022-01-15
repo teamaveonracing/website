@@ -21,3 +21,22 @@
     margin: 100px 10px 0;
   }
 }
+
+.handles {
+  padding-top: 50px;
+}
+p {
+  width: 250px;
+}
+.row {
+  overflow: hidden;
+  position: relative;
+}
+@media screen and (max-width: 680px) {
+  .row {
+    margin: 70px 30px 0;
+  }
+  .handles {
+    padding-top: 25px;
+  }
+}

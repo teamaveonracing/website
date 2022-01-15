@@ -25,10 +25,13 @@ export default function Profile(){
                         />
                     </h1>
                     <span className='profile-role-tagline'>
-                        If any tagline/agenda it will go here
+                        One Team, One Dream!
                     </span>
                 </div>
                 <div id="about">ABOUT US</div>
+                <p>
+                Team Aveon Racing consists of 25 members from different disciplines who come together to design and fabricate an Electric all-terrain vehicle and participate in the national level event, e-BAJA. Designing, fabrication, assemble and testing - all kinds of work are done by the students with an aim to build a lighter, faster and more durable ATV with zero emissions. The team was established in 2016 with the sole purpose of utilising technical knowledge and inspiring research for manufacture of alternate energy automobiles. The team started off as one of the best debutants and secured fifth rank in just its third year at the competition
+                </p>
                 </div>
     )
 }

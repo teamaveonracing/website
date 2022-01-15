@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import {FaFacebook, FaInstagram, FaLinkedin, FaTwitter} from 'react-icons/fa';
 
 export default function ContactUs (){
   const form = useRef();
@@ -31,6 +32,25 @@ export default function ContactUs (){
             </div>
                 <button className='btn btn-primary' type='submit'>Submit</button>
         </form>
+        </div>
+        <div className="row">
+            <div className='col-md-6 handles'>
+             <a href="https://www.facebook.com/TeamAveonRacing/">
+                  <FaFacebook color='white' size={40}/>
+             </a>
+            <a href="https://twitter.com/teamaveon">
+                   <FaTwitter color='white' size={40}/> 
+            </a>
+            <a href="https://www.instagram.com/teamaveon/">
+                <FaInstagram color='white' size={40}/>
+            </a>
+            <a href="https://www.linkedin.com/company/team-aveon/mycompany/">
+                <FaLinkedin color='white' size={40}/>
+            </a>
+            </div>
+             <div id="address" className="col-md-6">
+                <p>Team Aveon Workshop,<br />Birla Institute of Technology,Mesra Ranchi, Jharkhand,<br />India</p>
+                </div>
         </div>
         </div>
   );
