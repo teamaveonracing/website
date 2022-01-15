@@ -34,7 +34,7 @@ export default function ContactUs (){
         </form>
         </div>
         <div className="row">
-            <div className='col-md-6 handles'>
+            <div className='col-md-12'>
              <a href="https://www.facebook.com/TeamAveonRacing/">
                   <FaFacebook color='white' size={40}/>
              </a>
@@ -48,10 +48,7 @@ export default function ContactUs (){
                 <FaLinkedin color='white' size={40}/>
             </a>
             </div>
-             <div id="address" className="col-md-6">
-                <p>Team Aveon Workshop,<br />Birla Institute of Technology,Mesra Ranchi, Jharkhand,<br />India</p>
-                </div>
-        </div>
+            </div>
         </div>
   );
 };
