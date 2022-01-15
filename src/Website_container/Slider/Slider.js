@@ -27,7 +27,7 @@ export default function Slider() {
     }
     return (
         <div>
-            <span id='content'>GALLERY</span>
+            <span id='content'>CARS</span>
             <div className='container-slider'>
         {dataSlider.map((obj, index) =>{
             return (

@@ -7,10 +7,10 @@ export default function Nav(){
                 <div className="logo"><img src={complogo} alt='logo'/></div>
                  <div className="collapse navbar-collapse justify-content-end" id="navbarMenu">
                      <ul className="navbar-nav ml-auto">
-                     <li className="nav-item "><a className ="nav-link" href="#content">Gallery</a></li>
-                        <li className="nav-item "><a className ="nav-link" href="#contact">Contact Us</a></li>
+                        <li className="nav-item "><a className ="nav-link" href="#about">About Us</a></li>
+                     <li className="nav-item "><a className ="nav-link" href="#content">Cars</a></li>
                         <li className="nav-item "><a className ="nav-link" href="#">Events</a></li>
-                        <li className="nav-item "><a className ="nav-link" href="#">About Us</a></li>
+                        <li className="nav-item "><a className ="nav-link" href="#contact">Contact Us</a></li>
                     </ul>
                 </div>
             </nav>  

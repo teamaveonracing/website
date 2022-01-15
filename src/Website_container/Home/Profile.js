@@ -14,6 +14,7 @@ export default function Profile(){
                     <h1>
                         {" "}
                         <Typical 
+                        wrapper='b'
                         steps={[
                             "Team Aveon Racing!",
                             1000,
@@ -27,6 +28,7 @@ export default function Profile(){
                         If any tagline/agenda it will go here
                     </span>
                 </div>
+                <div id="about">ABOUT US</div>
                 </div>
     )
 }
