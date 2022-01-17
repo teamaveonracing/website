@@ -1,0 +1,41 @@
+#events {
+  position: relative;
+  color: red;
+  font-family: "Roboto-mono", monospace;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 15px;
+}
+#events:hover {
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+p {
+  max-width: 1000px;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+  color: azure;
+}
+@media screen and (max-width: 700px) {
+  p {
+    margin: 100px 10px 0;
+  }
+}
+.image {
+  max-width: 1000px;
+  height: 700px;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-style: solid;
+  border-width: 10px;
+  border-image: linear-gradient(45deg, rgb(143, 141, 0), rgb(250, 72, 66)) 1;
+}
+@media screen and (max-width: 700px) {
+  .image {
+    margin: 100px 10px 0;
+  }
+}
