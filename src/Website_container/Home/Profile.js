@@ -25,7 +25,7 @@ export default function Profile(){
                         />
                     </h1>
                     <span className='profile-role-tagline'>
-                        One Team, One Dream!
+                        Steering Innovation!
                     </span>
                 </div>
                 <div id="about">ABOUT US</div>
